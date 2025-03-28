@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function(){
      botaoDeAcessibilidade.classList.toggle('rotacao-botao');
      opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
  
-     
      const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
      botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado)
    
@@ -37,8 +36,8 @@ document.addEventListener('DOMContentLoaded', function(){
  
  
  })
- 
- ScrollReveal().reveal('#inicio', { delay: 500 });
- ScrollReveal().reveal('#tropicalia', { delay: 500 });
- ScrollReveal().reveal('#galeria', { delay: 500 });
- ScrollReveal().reveal('#contato', { delay: 500 });
+
+ Scrollreveal().reveal(#'inicio',{delay:500});
+ Scrollreveal().reveal(#'tropicalia',{delay:500});
+ Scrollreveal().reveal(#'galeria',{delay:500});
+ Scrollreveal().reveal(#'contato',{delay:500});
